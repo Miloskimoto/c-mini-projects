@@ -10,7 +10,7 @@ void ft_print_even_numbers(void){
         write(1,&c1, 1);
         if (c != 8)
         {
-        write(1,", ",1);
+        write(1,", ",2);
         }
     c+=2;
     } 
